@@ -9,8 +9,7 @@ gem 'bootstrap-will_paginate', '0.0.5'
 
 group :development do
   gem 'sqlite3', '1.3.5'
-  gem 'annotate'
-  gem 'pry-rails'
+  gem 'annotate', '~> 2.4.1.beta'
 end
 
 # Gems used only for assets and not required
