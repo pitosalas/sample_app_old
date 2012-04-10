@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'application_helper'
 
 describe "User Pages" do
-  include ApplicationHelper
+  	include ApplicationHelper
 
 	describe "signup page" do
 		before { visit signup_path }
