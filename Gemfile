@@ -10,6 +10,8 @@ gem 'bootstrap-will_paginate', '0.0.5'
 group :development do
   gem 'sqlite3', '1.3.5'
   gem 'annotate', '~> 2.4.1.beta'
+  gem 'pry-rails' # make pry the default rails c
+  gem 'pry-doc' # make rails core doc available through pry 
 end
 
 # Gems used only for assets and not required
