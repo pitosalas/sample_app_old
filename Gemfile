@@ -33,7 +33,7 @@ end
 
 group :test do
   gem 'capybara', '1.1.2'
-  gem 'rb-fsevent', '0.4.3.1', :require => false
+#  gem 'rb-fsevent', '0.4.3.1', :require => false
   gem 'growl', '1.0.3'
   gem 'factory_girl_rails', '1.4.0'
   gem 'cucumber-rails', '1.2.1'
